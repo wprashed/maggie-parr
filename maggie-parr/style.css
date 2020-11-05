@@ -1,0 +1,147 @@
+/*************************************************************************
+Theme Name: MaggieParr
+Theme URI: http://wprashed.com/
+Author: Md Rashed Hossain
+Author URI: http://wprashed.com/
+Description: maggie is Responsive Designed Blog and Magazine WordPress Theme
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: maggie
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+*************************************************************************/
+
+.screen-reader-text{
+	display:none;
+}
+.search-form label{
+	width:100% !important;
+}
+#searchsubmit{
+	width: 30px;
+    height: 30px;
+	background-color: #1ABB9C;
+	color:#fff;
+	position: absolute;
+    right: 20px;
+    top: 43px;
+    padding: 0;
+    line-height: 1;
+	border:0px;
+}
+.forms .btn-submit{
+	background:#17A78B;
+	margin:0px;
+}
+.menu-main-container{
+	margin-left:30px;
+	margin-right:auto;
+}
+.icon img{
+	max-height:80px;
+}
+#wp-megamenu-mainmenu{
+	background:transparent;
+}
+#wp-megamenu-mainmenu li a{
+	font-family: 'Source Sans Pro', sans-serif !important;
+	color:#506a85 !important;
+	font-size:15px !important;
+	font-weight:700 !important;
+	padding: 15px 20px;
+}
+#wp-megamenu-mainmenu li a:hover{
+	color:#1abb9c !important;
+	background-color:#f5f7fa !important;
+}
+.wp-megamenu-sub-menu {
+    width: 210px !important;
+    background: #F5F7FA !important;
+    border: none;
+    border: 1px solid #E6E9ED !important;
+    border-bottom-width: 2px !important;
+    border-bottom-color: #CED2D6 !important;
+    -webkit-border-radius: 3px !important;
+    -moz-border-radius: 3px !important;
+    border-radius: 3px !important;
+    -webkit-border-top-left-radius: 0 !important;
+    -moz-border-radius-topleft: 0 !important;
+    border-top-left-radius: 0 !important;
+    -webkit-box-shadow: 0 10px 10px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 10px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.15);
+    z-index: 0;
+}
+#wp-megamenu-mainmenu>.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu li a{
+	padding: 10px 20px !important;
+	font-family: 'Source Sans Pro', sans-serif !important;
+	color:#506a85 !important;
+	font-size:15px !important;
+	font-weight:600 !important;
+}
+#wp-megamenu-mainmenu>.wpmm-nav-wrap ul.wp-megamenu>li ul.wp-megamenu-sub-menu li a:hover{
+	color:#1abb9c !important;
+	background-color:#f5f7fa !important;
+}
+@media (max-width: 767px){
+.wp-megamenu-wrap{
+	float:right !important;
+	width:100% !important;
+	display:inline-block !important;
+	margin-top:-50px;
+}
+.wp-megamenu-wrap.wpmm-mobile-menu .wpmm-nav-wrap ul.wp-megamenu{
+	min-width:320px !important;
+}
+	.navbar-nav > li:first-of-type, .navbar-nav > li.searchbox{
+		display:none;
+	}
+	.wpmm_mobile_menu_btn{
+		background:#1abb9c;
+	}
+	.wpmm_mobile_menu_btn:hover{
+		background:#17A78B;
+	}
+	#hero h1{
+		font-size:40px;
+	}
+	.navbar-header{
+		display:none;
+	}
+	.navbar-collapse{
+		padding-left:15px;
+	}
+	.container{
+		padding:0px 15px
+	}
+	}
+body{
+	overflow-x:hidden !important;
+}
+.elementor-portfolio__filters::before{
+	content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    border-bottom: 1px solid #CED7E0;
+}
+.elementor ul li.elementor-portfolio__filter{
+	background:#fff !important;
+	position:relative;
+	margin:0px !important;
+	padding:0px 15px;
+}
+.elementor ul li.elementor-portfolio__filter::after{
+	content: "\00b7";
+	position:absolute;
+	right:0px;
+}
+.elementor ul li.elementor-portfolio__filter:last-child::after{
+	content: "";
+}
+.elementor-portfolio-item p{
+	font-size:14px;
+	color:#fff;
+}
